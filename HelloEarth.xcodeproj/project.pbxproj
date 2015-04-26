@@ -14,6 +14,13 @@
 		63C7B2311AECD4AF00DAA309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C7B2301AECD4AF00DAA309 /* Images.xcassets */; };
 		63C7B2341AECD4AF00DAA309 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C7B2321AECD4AF00DAA309 /* LaunchScreen.xib */; };
 		63C7B2401AECD4AF00DAA309 /* HelloEarthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C7B23F1AECD4AF00DAA309 /* HelloEarthTests.m */; };
+		63C7B24A1AECE1F900DAA309 /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7B2491AECE1F800DAA309 /* WhirlyGlobeMaplyComponent.framework */; };
+		63C7B24C1AECE20300DAA309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7B24B1AECE20300DAA309 /* CoreLocation.framework */; };
+		63C7B2511AECE24900DAA309 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7B24D1AECE24900DAA309 /* libc++.dylib */; };
+		63C7B2521AECE24900DAA309 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7B24E1AECE24900DAA309 /* libsqlite3.dylib */; };
+		63C7B2531AECE24900DAA309 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7B24F1AECE24900DAA309 /* libxml2.dylib */; };
+		63C7B2541AECE24900DAA309 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C7B2501AECE24900DAA309 /* libz.dylib */; };
+		63C7B2571AED228400DAA309 /* geography-class_medres.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 63C7B2561AED228400DAA309 /* geography-class_medres.mbtiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		63C7B2391AECD4AF00DAA309 /* HelloEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C7B23E1AECD4AF00DAA309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C7B23F1AECD4AF00DAA309 /* HelloEarthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloEarthTests.m; sourceTree = "<group>"; };
+		63C7B2491AECE1F800DAA309 /* WhirlyGlobeMaplyComponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WhirlyGlobeMaplyComponent.framework; path = WhirlyGlobe_Maply_Distribution_2_3/WhirlyGlobeMaplyComponent.framework; sourceTree = "<group>"; };
+		63C7B24B1AECE20300DAA309 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63C7B24D1AECE24900DAA309 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		63C7B24E1AECE24900DAA309 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		63C7B24F1AECE24900DAA309 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		63C7B2501AECE24900DAA309 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		63C7B2561AED228400DAA309 /* geography-class_medres.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "geography-class_medres.mbtiles"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C7B2511AECE24900DAA309 /* libc++.dylib in Frameworks */,
+				63C7B2521AECE24900DAA309 /* libsqlite3.dylib in Frameworks */,
+				63C7B2531AECE24900DAA309 /* libxml2.dylib in Frameworks */,
+				63C7B2541AECE24900DAA309 /* libz.dylib in Frameworks */,
+				63C7B24C1AECE20300DAA309 /* CoreLocation.framework in Frameworks */,
+				63C7B24A1AECE1F900DAA309 /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,12 @@
 		63C7B2171AECD4AE00DAA309 = {
 			isa = PBXGroup;
 			children = (
+				63C7B24D1AECE24900DAA309 /* libc++.dylib */,
+				63C7B24E1AECE24900DAA309 /* libsqlite3.dylib */,
+				63C7B24F1AECE24900DAA309 /* libxml2.dylib */,
+				63C7B2501AECE24900DAA309 /* libz.dylib */,
+				63C7B24B1AECE20300DAA309 /* CoreLocation.framework */,
+				63C7B2491AECE1F800DAA309 /* WhirlyGlobeMaplyComponent.framework */,
 				63C7B2221AECD4AE00DAA309 /* HelloEarth */,
 				63C7B23C1AECD4AF00DAA309 /* HelloEarthTests */,
 				63C7B2211AECD4AE00DAA309 /* Products */,
@@ -88,6 +114,7 @@
 				63C7B22D1AECD4AF00DAA309 /* Main.storyboard */,
 				63C7B2301AECD4AF00DAA309 /* Images.xcassets */,
 				63C7B2321AECD4AF00DAA309 /* LaunchScreen.xib */,
+				63C7B2551AED228400DAA309 /* Resources */,
 				63C7B2231AECD4AF00DAA309 /* Supporting Files */,
 			);
 			path = HelloEarth;
@@ -117,6 +144,15 @@
 				63C7B23E1AECD4AF00DAA309 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63C7B2551AED228400DAA309 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63C7B2561AED228400DAA309 /* geography-class_medres.mbtiles */,
+			);
+			name = Resources;
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C7B2571AED228400DAA309 /* geography-class_medres.mbtiles in Resources */,
 				63C7B22F1AECD4AF00DAA309 /* Main.storyboard in Resources */,
 				63C7B2341AECD4AF00DAA309 /* LaunchScreen.xib in Resources */,
 				63C7B2311AECD4AF00DAA309 /* Images.xcassets in Resources */,
@@ -349,6 +386,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhirlyGlobe_Maply_Distribution_2_3",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/WhirlyGlobe_Maply_Distribution_2_3/WhirlyGlobeMaplyComponent.framework/Headers\"",
+				);
 				INFOPLIST_FILE = HelloEarth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +405,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhirlyGlobe_Maply_Distribution_2_3",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/WhirlyGlobe_Maply_Distribution_2_3/WhirlyGlobeMaplyComponent.framework/Headers\"",
+				);
 				INFOPLIST_FILE = HelloEarth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
